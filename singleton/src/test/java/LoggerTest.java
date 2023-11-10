@@ -1,3 +1,4 @@
+import com.apple.develop.EnumGlobalCounter;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,5 +21,6 @@ public class LoggerTest {
         field.setAccessible(true);
         String path= (String) field.get(log);
         System.out.println(path);
+
     }
 }

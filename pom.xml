@@ -9,6 +9,7 @@
     <modules>
         <module>singleton</module>
         <module>factory</module>
+        <module>builder</module>
     </modules>
 
     <dependencies>

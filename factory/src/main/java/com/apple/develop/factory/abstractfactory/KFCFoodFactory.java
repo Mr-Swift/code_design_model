@@ -2,7 +2,7 @@ package com.apple.develop.factory.abstractfactory;
 
 import com.apple.develop.entity.Food.Food;
 
-public class KFCFoodFactory implements FoodFactory{
+public class KFCFoodFactory extends FoodFactory{
 
     @Override
     public Food createZhaJi() {
