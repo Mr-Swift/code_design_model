@@ -10,6 +10,7 @@
         <module name="builder" />
         <module name="apple" />
         <module name="factory" />
+        <module name="prototype" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
